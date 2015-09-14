@@ -1,0 +1,51 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+addPlayer	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public int addPlayer(PlayerListener player) {$/;"	m	language:Java	class:GameLogic
+advanceTurn	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	private void advanceTurn(int playerID) {$/;"	m	language:Java	class:GameLogic	file:
+assertPlayerAP	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	private void assertPlayerAP(int playerID) throws RuntimeException {$/;"	m	language:Java	class:GameLogic	file:
+assertPlayerExists	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	private void assertPlayerExists(int playerID) throws RuntimeException {$/;"	m	language:Java	class:GameLogic	file:
+assertPlayersTurn	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	private void assertPlayersTurn(int playerID) throws CommandException {$/;"	m	language:Java	class:GameLogic	file:
+atLeastOneNonWallLocation	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	private boolean atLeastOneNonWallLocation() {$/;"	m	language:Java	class:GameLogic	file:
+clientAttack	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public void clientAttack(CompassDirection direction, int playerID)$/;"	m	language:Java	class:GameLogic
+clientEndTurn	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public void clientEndTurn(int playerID) {$/;"	m	language:Java	class:GameLogic
+clientHello	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public void clientHello(String newName, int playerID)$/;"	m	language:Java	class:GameLogic
+clientLook	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public String clientLook(int playerID) {$/;"	m	language:Java	class:GameLogic
+clientMove	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public void clientMove(CompassDirection direction, int playerID)$/;"	m	language:Java	class:GameLogic
+clientPickup	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public void clientPickup(int playerID) throws CommandException {$/;"	m	language:Java	class:GameLogic
+clientShout	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public void clientShout(String message) {$/;"	m	language:Java	class:GameLogic
+currentPlayer	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	private int currentPlayer = -1;$/;"	f	language:Java	class:GameLogic	file:
+dod.game	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^package dod.game;$/;"	p	language:Java
+dod.game	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^package dod.game;$/;"	p	language:Java
+ensureNoWinner	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	private void ensureNoWinner() throws CommandException {$/;"	m	language:Java	class:GameLogic	file:
+GameLogic	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public GameLogic(String mapFile) throws FileNotFoundException, ParseException {$/;"	m	language:Java	class:GameLogic
+GameLogic	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^public class GameLogic {$/;"	c	language:Java
+generateRandomStartLocation	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	private Location generateRandomStartLocation() {$/;"	m	language:Java	class:GameLogic	file:
+getGoal	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public int getGoal() {$/;"	m	language:Java	class:GameLogic
+getGoal	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    public int getGoal() {$/;"	m	language:Java	class:Map
+getMapCell	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    public Tile getMapCell(Location location) {$/;"	m	language:Java	class:Map
+getMapHeight	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    public int getMapHeight() {$/;"	m	language:Java	class:Map
+getMapWidth	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    public int getMapWidth() {$/;"	m	language:Java	class:Map
+getName	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    public String getName() {$/;"	m	language:Java	class:Map
+getStringAfterTag	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    private String getStringAfterTag(String line, String tag, int lineNum)$/;"	m	language:Java	class:Map	file:
+goal	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    private int goal;$/;"	f	language:Java	class:Map	file:
+GOALLINE	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    private static final int GOALLINE = 1;$/;"	f	language:Java	class:Map	file:
+insideMap	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    public boolean insideMap(Location location) {$/;"	m	language:Java	class:Map
+map	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	Map map;$/;"	f	language:Java	class:GameLogic
+map	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    private Tile map[][];$/;"	f	language:Java	class:Map	file:
+Map	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    public Map(String filename) throws ParseException, FileNotFoundException {$/;"	m	language:Java	class:Map
+Map	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^public class Map {$/;"	c	language:Java
+MAPBEGINLINE	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    private static final int MAPBEGINLINE = 2;$/;"	f	language:Java	class:Map	file:
+MINLINES	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    private static final int MINLINES = 3;$/;"	f	language:Java	class:Map	file:
+name	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    private String name;$/;"	f	language:Java	class:Map	file:
+NAMELINE	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    private static final int NAMELINE = 0;$/;"	f	language:Java	class:Map	file:
+otherPlayerOnTile	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	private boolean otherPlayerOnTile(Location location, int currentPlayerID) {$/;"	m	language:Java	class:GameLogic	file:
+parseMapGoal	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    private void parseMapGoal(String secondLine) throws ParseException {$/;"	m	language:Java	class:Map	file:
+parseMapName	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    private void parseMapName(String firstLine) throws ParseException {$/;"	m	language:Java	class:Map	file:
+players	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	private final List<Player> players;$/;"	f	language:Java	class:GameLogic	file:
+playerWon	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	private boolean playerWon = false;$/;"	f	language:Java	class:GameLogic	file:
+readFile	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    private List<String> readFile(String filename) throws FileNotFoundException {$/;"	m	language:Java	class:Map	file:
+readMap	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    private void readMap(List<String> lines) throws ParseException,$/;"	m	language:Java	class:Map	file:
+remainingGold	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/Map.java	/^    public int remainingGold() {$/;"	m	language:Java	class:Map
+removePlayer	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public void removePlayer(int playerID) {$/;"	m	language:Java	class:GameLogic
+setPlayerPosition	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public void setPlayerPosition(int col, int row, int playerID)$/;"	m	language:Java	class:GameLogic
+startNewGame	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	public void startNewGame() {$/;"	m	language:Java	class:GameLogic
+startTurn	/home/jack/MEGA/DungeonsOfDoom/src/dod/game/GameLogic.java	/^	private void startTurn() {$/;"	m	language:Java	class:GameLogic	file:
