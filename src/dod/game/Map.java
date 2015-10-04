@@ -34,7 +34,7 @@ public class Map {
 
     /**
      * Creates a map from the file specified. Note that this is not robust...
-     * 
+     *
      * @param filename
      *            The name of the file to load the map from
      * @throws ParseException
@@ -76,7 +76,7 @@ public class Map {
 
     /**
      * Returns the contents of the cell of the map at the location
-     * 
+     *
      * @return the contents of the cell
      */
     public Tile getMapCell(Location location) {
@@ -84,7 +84,7 @@ public class Map {
     }
 
     /**
-     * 
+     *
      * @return The amount of gold required to win on this map
      */
     public int getGoal() {
@@ -93,7 +93,7 @@ public class Map {
 
     /**
      * Used to check if a location is a valid location in the map
-     * 
+     *
      * @return true if the location is valid, false otherwise
      */
     public boolean insideMap(Location location) {
@@ -133,7 +133,7 @@ public class Map {
     /**
      * Reads in a file and returns a List of Strings. This makes life slightly
      * easier. NB, in Java 1.7 Files.ReadAllLines() will do the job.
-     * 
+     *
      * @param filename
      *            The name of the file to read the map from
      * @return A List of lines in the file
@@ -162,7 +162,7 @@ public class Map {
 
     /**
      * Reads in the map data from the file, storing the tiles to this.map
-     * 
+     *
      * @param lines
      *            All the lines of text from the map file
      * @throws ParseException
@@ -201,7 +201,7 @@ public class Map {
 
     /**
      * Obtains the map name from the first line of the map file
-     * 
+     *
      * @param firstLine
      *            the first line of the map file
      * @throws ParseException
@@ -213,7 +213,7 @@ public class Map {
     /**
      * Obtains the goal (number of cold to collect) from the second line of the
      * map file
-     * 
+     *
      * @param secondLine
      *            the second line of the map file
      * @throws ParseException
@@ -231,7 +231,7 @@ public class Map {
     /**
      * A helper method to process a line in a file of the format <tag>
      * <argument> Returns the argument, if the tag is correct
-     * 
+     *
      * @param line
      *            the line of the file to process
      * @param tag
